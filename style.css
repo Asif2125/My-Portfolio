@@ -2,13 +2,12 @@ body{
     margin: 0;
     font-family: 'Oswald', sans-serif;
 }
-.author-name{
-    color: darkgoldenrod;
+.tag-name{
+    color: rgb(18, 240, 155);
 }
-section{
+.flexible-area{
     display: flex;
     margin-bottom: 150px;
-    
 }
 .half-width img{
     width: 100%;
@@ -24,7 +23,7 @@ section{
 }
 
 h1{
-    font-size: 60px;
+    font-size: 50px;
 }
 p{
     color: dimgray;
@@ -47,4 +46,25 @@ p{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.last-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    box-shadow: 2px 2px 35px 10px rgba(0, 0, 0, 0.2);
+    
+}
+#stack-developer-border{
+   border-left: 5px solid;
+   border-image: linear-gradient(#eff30c, #eff30c) 30;
+    
+}
+#baby-developer-border{
+    border-left: 5px solid;
+    border-image: linear-gradient(#cee40e, #2c5f03) 30;
+}
+footer p{
+    text-align: center;
 }
